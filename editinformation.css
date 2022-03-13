@@ -1,0 +1,88 @@
+.box_contant_edit_information{
+    width: 995px;
+    height: 460px;
+    margin: auto;
+}
+.edit_information_input{
+    display: inline-block;
+}
+.edit_information_head h1{
+    font-size: 50px;
+    color: #6E6D4E;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.edit_information_input ::placeholder{
+    color: white;
+}
+.edit_information_input input{
+    width: 457px;
+    height: 50px;
+    background-color: #91971D;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 15px 10px 15px 10px;
+    padding-left: 10px;
+    border: none;
+    font-size: 28px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.edit_information_input input[type=date]{
+    width: 457px;
+    height: 50px;
+    font-size: 27px;
+    color: white;
+    background-color: #91971D;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 15px 10px 15px 10px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.edit_information_input select{
+    width: 467px;
+    height: 53px;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    background-color: #91971D;
+    border-radius: 10px;
+    margin: 15px 10px 15px 13px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.edit_information_button{
+    width: 100%;
+    text-align: right;
+}
+.edit_information_line4  textarea::placeholder{
+    color: white;
+}
+.edit_information_line4 textarea{
+    width: 940px;
+    height: 100px;
+    margin: 10px;
+    resize: none;
+    font-size: 27px;
+    color: white;
+    background-color: #91971D;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.edit_information_button input{
+    margin-right: 25px;
+    width: 101px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background: #F0DEB4;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #6E6D4E;
+}

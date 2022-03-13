@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylenavbar2.css">
+    <link rel="stylesheet" href="editinformation.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Edit information</title>
+</head>
+<header>
+    <ul class="navbar2">
+        <li><a href="mainpage.html">Home</a></li>
+        <li>
+            <div class="dropdown">
+                Shop
+                <div class="dropdown-content">
+                    <p><a href="fruit.html">Fruit</a></p>
+                    <p><a href="fruitorganic.html">Organic</a></p>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li>
+            <div class="dropdown">
+                Buyer
+                <div class="dropdown-content">
+                    <p><a href="sellerprofile.html">Seller</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="search_bar">
+                <input type="text" name="search_name" placeholder="Search....">
+                <div class="search_button">
+                    <button type="submit"><i class="fi fi-br-search"></i></button>
+                </div>
+
+            </div>
+        </li>
+        <li>
+            <div class="shoppingcart">
+                <form action="shopcart.html">
+                    <button type="submit"><img src="cart.png"></button>
+                </form>
+            </div>
+
+        </li>
+        <li>
+            <div class="profile">
+                <form action="profile.html">
+                    <button type="submit"><img src="profile.png"></button>
+                </form>
+            </div>
+
+        </li>
+    </ul>
+</header>
+
+<body>
+    <div class="box_contant_edit_information">
+        <div class="edit_information_head">
+            <h1>Edit Information</h1>
+        </div>
+        <div class="edit_information_contant">
+            <form action=" " method="post">
+                <div class="edit_information_line1">
+                    <div class="edit_information_input">
+                        <input type="text" name="new_firstname" placeholder="First Name" autocomplete="off">
+                    </div>
+                    <div class="edit_information_input">
+                        <input type="text" name="new_lastname" placeholder="Last Name" autocomplete="off">
+                    </div>
+                </div>
+                <div class="edit_information_line2">
+                    <div class="edit_information_input">
+                        <input type="text" name="new_phone" placeholder="Phone Number" autocomplete="off">
+                    </div>
+                    <div class="edit_information_input">
+                        <input type="email" name="new_email" placeholder="Email" autocomplete="off">
+                    </div>
+                </div>
+                <div class="edit_information_line3">
+                    <div class="edit_information_input">
+                        <input type="date" name="birthday" placeholder="Birthday" autocomplete="off">
+                    </div>
+                    <div class="edit_information_input">
+                        <select name="gander">
+                            <option value="none" selected>Select Your Gender</option>
+                            <option value="male">MALE</option>
+                            <option value="female">FEMALE</option>
+                            <option value="other">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="edit_information_line4">
+                    <textarea placeholder="Address" name="new_address"></textarea>
+                </div>
+                <div class="edit_information_button">
+                    <input type="reset" value="Cancal">
+                    <input type="submit" value="Confrim">
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
