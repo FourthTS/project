@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styleregis.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+<header>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li>
+            <div class="dropdown">
+                Shop
+                <div class="dropdown-content">
+                    <p><a href="#">Hello World!</a></p>
+                    <p><a href="#">Hello World!</a></p>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">Pruduct</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="login.html">Log in</a></li>
+    </ul>
+</header>
+
+<body>
+    <div class="signup_box">
+        <div class="signup_head">
+            Sign Up
+        </div>
+        <table class="table_name">
+            <td>
+                <input type="text" class="signup_firstname" name="signup_firstname" placeholder="Frist Name">
+            </td>
+            <td>
+                <input type="text" class="signup_lastname" name="signup_lastname" placeholder="Last Name">
+            </td>
+        </table>
+        <div class="signup_form">
+            <input type="text" class="signup_email" name="signup_email" placeholder="Email"><br>
+        </div>
+        <div class="signup_form_address">
+           <textarea name="signup_address" cols="40" rows="4" placeholder="Address"></textarea><br>
+        </div>
+        <div class="signup_form">
+            <input type="text" class="signup_phone" name="signup_phone" placeholder="Phone"><br>
+        </div>
+        <div class="signup_form">
+            <input type="text" class="signup_username" name="signup_username" placeholder="UserName"><br>
+        </div>
+        <div class="signup_form">
+            <input type="text" class="signup_password" name="signup_password" placeholder="Password"><br>
+        </div>
+        <div class="signup_form">
+            <input type="text" class="signup_comfirm_password" name="signup_comfirm_password"
+                placeholder="Comfirm Password">
+        </div>
+        <div class="signup_check_submit">
+            <table>
+                <tr>
+                    <td>
+                        <label class="container">I Agree with <a href="#">Privacy</a> And <a href="#">Policy</a>
+                            <input type="checkbox"><span class="checkmark"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="submit" name="signup_submit" value="Sign Up">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

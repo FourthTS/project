@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FBFAEC;
+    margin: 0;
+}
+.seller_profile{
+    width: 955px;
+    height: auto;
+    margin: 50px auto 50px auto;
+}
+.head{
+    width: 951px;
+    height: 250px;
+    background-color: #91971D;
+    border-radius: 10px;
+}
+.mid{
+    margin-top: 20px;
+}
+.td_img{
+    width: 30%;
+}
+.td_information{
+    width:70%
+}
+.head .store_img{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+}
+.store_img img{
+    width: 70%;
+    height: 70%;
+    margin: 25px;
+} 
+.information h1{
+    color: white;
+}
+.information p{
+    color: white;
+}
+.tb_mid {
+    width: 100%;
+}
+.tb_mid td{
+    width: 50%;
+}
+.in_store{
+    width: 100%;
+    height: 60px;    
+    background-color: #6E6D4E;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0;
+}
+.in_store p{
+    font-size: 40px;
+    height: 100%;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding-top:8px ;
+    margin: 0;
+}
+.add{
+    text-align: right;
+}
+.add input{
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #F0DEB4;
+    color: #6E6D4E;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.store{
+ width: 100%;
+}
+.box_contant{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylenavbar2.css">
+    <link rel="stylesheet" href="styleproduct.css">
+    <link rel="stylesheet" href="item1.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <title>สินค้า</title>
+</head>
+<header>
+    <ul class="navbar2">
+        <li><a href="mainpage.html">Home</a></li>
+        <li>
+            <div class="dropdown">
+                Shop
+                <div class="dropdown-content">
+                    <p><a href="fruit.html">Fruit</a></p>
+                    <p><a href="fruitorganic.html">Organic</a></p>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li>
+            <div class="dropdown">
+                Buyer
+                <div class="dropdown-content">
+                    <p><a href="sellerprofile.html">Seller</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="search_bar">
+                <input type="text" name="search_name" placeholder="Search....">
+                <div class="search_button">
+                    <button type="submit"><i class="fi fi-br-search"></i></button>
+                </div>
+
+            </div>
+        </li>
+        <li>
+            <div class="shoppingcart">
+                <form action="shopcart.html">
+                    <button type="submit"><img src="cart.png"></button>
+                </form>
+            </div>
+
+        </li>
+        <li>
+            <div class="profile">
+                <form action="profile.html">
+                    <button type="submit"><img src="profile.png"></button>
+                </form>
+            </div>
+
+        </li>
+    </ul>
+</header>
+
+<body>
+    <div class="mainbox_contant_product">
+        <table>
+            <td class="table_product_forn">
+                <div class="img_contant_product">
+
+                </div>
+                <div class="mini_img_contant_product">
+                    <div class="mini_img">
+
+                    </div>
+                    <div class="mini_img">
+
+                    </div>
+                    <div class="mini_img">
+
+                    </div>
+                </div>
+            </td>
+            <td class="table_product_back">
+                <div class="box_contant_product">
+                    <div class="box_contant_product_head">
+                        <h1>NAME : </h1>
+                    </div>
+                    <div class="box_contant_product_details">
+                        <textarea name="product_details" id="" cols="79" rows="7" readonly> แสดงอย่างเดียวทำไรไม่ได้ </textarea>
+                    </div>
+                    <div class="box_contant_product_price"> 
+                        <p>Price <span> 000.00 </span> Bath</p>
+                    </div>
+                    <form action="#" method="#">
+                        <div class="box_contant_product_quantity">
+                            <span>Quantity</span> <input type="number" name="quantity_product" min="0">
+                        </div>
+                        <div class="box_button_buy_cart">
+                            <div class="button_input">
+                                <button class="buy_product_now">
+                                    <span>BUY NOW</span>
+                                </button>
+                                <button class="add_product_cart">
+                                    <span>ADD TO CART</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </td>
+        </table>
+    </div>    
+
+</body>
+
+</html>
