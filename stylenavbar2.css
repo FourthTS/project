@@ -6,7 +6,6 @@ body{
 .navbar2{
     width: auto;
     margin: 0px auto 0px auto;
-    padding: 0px 0px 0px 0px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: right;
     background-color: #6E6D4E;
@@ -14,7 +13,7 @@ body{
 .navbar2 li {
     font-size: 24px;
     display: inline-block;
-    margin: 24px 15px 24px 15px;
+    margin:24px 20px 24px 20px;
 }
 .navbar2 li p{
     color: white;
@@ -47,8 +46,8 @@ body{
   }
   .navbar2 .search_bar{
     margin: 0px;
-    width: 340px;
-    height: 35px;
+    width: 360px;
+    height: 40px;
     position: relative;
   }
 
@@ -77,34 +76,74 @@ body{
     cursor: pointer;
     border:none ;
   }
-  .shoppingcart button{
-      width: 43px;
-      height: 33px;
-      transform: translateY(5px);
+  .dropdown_profile{
+      margin-right: 20px;
       margin-left: 20px;
-      margin-right:20px ;
-      margin-top: 0;
-      background-color: #6E6D4E;
-      border: none;
+      transform: translateY(10px);
   }
-  .shoppingcart button img{
-    width: 100%;
-    height:100%;
-    margin: 0;
-    padding: 0;
-}
-.profile button{
-    width: 43px;
-    height: 33px;
-    transform: translateY(7px);
-    margin-right:20px ;
-    margin-top: 0;
+  .order{
+    margin-right: 20px;
+    margin-left: 20px;
+    transform: translateY(10px);
+  }
+
+.dropdown-content-profile {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+  }
+  
+  .dropdown-content-profile {
+    text-align:  center;
+    display: none;
+    position: absolute;
     background-color: #6E6D4E;
-    border: none;
-}
-.profile button img{
-  width: 100%;
-  height:100%;
-  margin: 0;
-  padding: 0;
-}
+    width: 250px;
+    z-index: 3;
+    right: 0;
+    border-radius: 10px;
+    border: 1px solid #696837;
+  }
+  td{
+      text-align: center;
+  }
+  img{
+      width: 40px;
+      height: 40px;
+  }
+  .dropdown-content-profile a{
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+  }
+  .dropdown-content-profile img{
+      width: 30px;
+      height: 30px;
+  }
+  .dropdown_profile:hover .dropdown-content-profile {
+    display: block;
+  }
+  .logout{
+      width: 80%;
+      border-radius: 10px;
+      margin: 10px auto 10px auto;
+      background-color: #F0DEB4;
+      margin-bottom: 20px;
+  }
+  .profile{
+      font-size: 20px;
+      margin: 5px;
+      width: 100%;
+  }
+  .profile img{
+      margin: 5px;
+      width: 50px;
+      height: 50px;
+  }
+  .profile p{
+    margin: 0;
+  }
+  .td_dropdown{
+    width: 55%;
+    margin: 0px auto 0px auto;
+  }
