@@ -36,6 +36,10 @@ body{
     height: 70%;
     margin: 25px;
 } 
+.information{
+    text-align: left;
+    margin-left: 30px;
+}
 .information h1{
     color: white;
 }
@@ -87,5 +91,10 @@ body{
     display: inline-block;
     margin-top: 10px;
 }
-
-
+.head a{
+    position: absolute;
+    margin: 10px;
+    transform: translateX(883px);
+    color: #D8CD4A;
+    font-size: 26px;
+}
