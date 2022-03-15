@@ -198,3 +198,27 @@ input[type=submit]{
 .signup_check_submit label{
   color: white;
 }
+.signup_form_email input{
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Roboto Condensed', sans-serif;
+  background-color: #ffffff;
+  color: #6E6D4E;
+  height: 40px;
+  width: 465px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 19px;
+}
+.signup_form_password input{
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Roboto Condensed', sans-serif;
+  background-color: #ffffff;
+  color: #6E6D4E;
+  height: 40px;
+  width: 465px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 19px;
+}

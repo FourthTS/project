@@ -93,7 +93,7 @@ body{
     height: auto;
     border-collapse: collapse;
 }
-td{
+.box_contant_profile td{
     border-bottom: 5px solid #ddd;
     margin-right: 20px;
     margin-left: 20px;
@@ -112,8 +112,10 @@ td{
 .detail_back{
     width: 70%;
     height: auto;
+    text-align: left;
 }
 .detail_back p{
+    text-align: left;
     margin: 30px 0px 30px 0px;
     padding: 0px;
     font-size: 28px;

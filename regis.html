@@ -18,19 +18,18 @@
 </head>
 <header>
     <ul class="navbar">
-        <li><a href="#">Home</a></li>
+        <li><a href="mainpage.html">Home</a></li>
         <li>
             <div class="dropdown">
                 Shop
                 <div class="dropdown-content">
-                    <p><a href="#">Hello World!</a></p>
-                    <p><a href="#">Hello World!</a></p>
+                    <p><a href="fruit.html">Fruit</a></p>
+                    <p><a href="fruitorganic.css">Organnic </a></p>
                 </div>
             </div>
         </li>
-        <li><a href="#">Pruduct</a></li>
         <li><a href="#">About Us</a></li>
-        <li><a href="login.html">Log in</a></li>
+        <li><a href="regis.html">Sign Up</a></li>
     </ul>
 </header>
 
@@ -47,8 +46,8 @@
                 <input type="text" class="signup_lastname" name="signup_lastname" placeholder="Last Name">
             </td>
         </table>
-        <div class="signup_form">
-            <input type="text" class="signup_email" name="signup_email" placeholder="Email"><br>
+        <div class="signup_form_email">
+            <input type="email" class="signup_email" name="signup_email" placeholder="Email"><br>
         </div>
         <div class="signup_form_address">
            <textarea name="signup_address" cols="40" rows="4" placeholder="Address"></textarea><br>
@@ -59,12 +58,11 @@
         <div class="signup_form">
             <input type="text" class="signup_username" name="signup_username" placeholder="UserName"><br>
         </div>
-        <div class="signup_form">
-            <input type="text" class="signup_password" name="signup_password" placeholder="Password"><br>
+        <div class="signup_form_password">
+            <input type="password" class="signup_password" name="signup_password" placeholder="Password"><br>
         </div>
-        <div class="signup_form">
-            <input type="text" class="signup_comfirm_password" name="signup_comfirm_password"
-                placeholder="Comfirm Password">
+        <div class="signup_form_password">
+            <input type="password" class="signup_comfirm_password" name="signup_comfirm_password" placeholder="Comfirm Password">
         </div>
         <div class="signup_check_submit">
             <table>
@@ -75,7 +73,7 @@
                         </label>
                     </td>
                     <td>
-                        <input type="submit" name="signup_submit" value="Sign Up">
+                        <input type="submit" name="reg_user" value="Sign Up">
                     </td>
                 </tr>
             </table>

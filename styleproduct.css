@@ -105,7 +105,11 @@
     text-align: right;
     margin-top: 50px;
 }
-.table_product_back .box_contant_product .box_button_buy_cart button{
+.box_button_buy_cart{
+    text-align: right;
+    width: 100%;
+}
+.box_button_buy_cart button{
  width: 223px;
  height: 60px;
  border: none;
@@ -117,6 +121,7 @@
  font-family: 'Roboto Condensed', sans-serif;
  cursor: pointer;
  margin-left: 10px;
+ margin-top: 20px;
 }
 .mainbox_contant_product .box_contant{
     display: inline-block;
